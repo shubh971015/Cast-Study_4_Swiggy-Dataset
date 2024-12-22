@@ -1,4 +1,3 @@
-# Restaurant & City Insights
 
 # Swiggy Restaurant Data Analysis 🍽️
 
