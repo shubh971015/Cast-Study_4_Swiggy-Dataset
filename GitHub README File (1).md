@@ -1,5 +1,47 @@
 # Restaurant & City Insights
 
+# Swiggy Restaurant Data Analysis 🍽️
+
+## Overview
+This repository contains SQL queries for analyzing restaurant data from Swiggy, a food delivery platform. The analysis covers various aspects including restaurant distributions, ratings, menu offerings, pricing, and customer preferences.
+
+## Analysis Categories
+
+### 1. Restaurant & City Insights
+- City-wise restaurant distribution
+- High-rated restaurants analysis (>4.5 rating)
+- Top cities by average restaurant ratings
+- Vegetarian restaurant distribution
+- Address length analysis
+
+### 2. Menu & Cuisine Analysis
+- Top 5 cuisine distribution
+- Menu variety analysis
+- Restaurant menu category diversity
+- Vegetarian restaurant listings
+- City-wise price maximums
+
+### 3. Cost & Pricing Analysis
+- Above-average cost analysis
+- Minimum price analysis
+- Premium menu items
+- Non-Indian cuisine cost analysis
+- City-wise cost spread
+
+### 4. Customer Preferences
+- City-wise rating analysis
+- Pizza restaurant analysis
+- Popular menu categories
+- Vegetarian menu analysis
+- Non-vegetarian restaurant item counts
+
+### 5. Complex Analysis
+- Multi-category restaurant analysis
+- City cost analysis
+- Premium item analysis
+- Vegetarian percentage by city
+- Rating comparison within cuisines
+
 1. **Which city has the most restaurants listed in the dataset?**
    ```sql
    SELECT city, COUNT(DISTINCT restaurant_name) AS restaurant_count
