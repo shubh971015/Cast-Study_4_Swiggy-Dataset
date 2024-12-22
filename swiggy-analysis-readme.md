@@ -75,21 +75,4 @@ The analysis uses the following main table:
   - veg_or_nonveg
   - address
 
-## Usage
-1. Ensure you have access to a MySQL/PostgreSQL database
-2. Import the Swiggy dataset
-3. Run the queries in your preferred SQL client
-4. Modify the queries as needed for your specific analysis
-
-## Contributing
-Feel free to contribute to this analysis by:
-- Adding new analytical queries
-- Optimizing existing queries
-- Suggesting new analysis categories
-- Reporting issues or bugs
-
-## License
-This project is open-source and available under the MIT License.
-
----
-*Note: This analysis is for educational purposes and uses publicly available Swiggy restaurant data.*
+======================
